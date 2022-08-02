@@ -37,10 +37,10 @@ def Spatial_DE(filterd_exprs, coordinates):
         
         return result_dic
 
+
 #读入文件
-counts = pd.read_csv(args.counts_df)
-sample_info = pd.read_csv(args.location_df)
+counts = pd.read_csv(args.counts_df,index_col = 0)
+sample_info = pd.read_csv(args.location_df,index_col = 0)
 counts = counts.loc[sample_info.index]
 SVG = Spatial_DE(counts,sample_info)
-results1 = SVG["ms_results"].sort_values('qval')[['g', 'FSV', 'qval']]
-results1.to_csv("svg_ms.csv",index=False)
+SVG.to_csv("svg_spatialDE.csv",index=False)
