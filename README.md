@@ -14,7 +14,7 @@ This script runs based on python, and the required python packages are as follow
 * matplotlib
 ## Use the script
 To use this script you can calculate an SVG of your own data, you need to provide 
-a spatial expression matrix with <strong> row names for cell names, columns for gene names <strong>
+a spatial expression matrix with <strong> row names for cell names, columns for gene names </strong>
 and a file with spatial location information 
 1. Example of a spatial representation matrix: [Rep11_MOB_0.csv](https://github.com/gouxiaojuan/pipeline_spatialDE/blob/main/example/Rep11_MOB_0.csv)<br>
 2. Example of a file with spatial location information: [MOB_sample_info.csv](https://github.com/gouxiaojuan/pipeline_spatialDE/blob/main/example/MOB_sample_info.csv)<br>
@@ -39,7 +39,7 @@ This script runs based on python, and the required python packages are as follow
 * matplotlib
 ## Use the script
 To use this script you can calculate an SVG of your own data, you need to provide 
-a spatial expression matrix with <strong> row names for cell names, columns for gene names <strong> 
+a spatial expression matrix with <strong> row names for cell names, columns for gene names </strong> 
 and a file with spatial location information 
 1. Example of a spatial representation matrix: [Rep11_MOB_0.csv](https://github.com/gouxiaojuan/pipeline_spatialDE/blob/main/example/Rep11_MOB_0.csv)<br>
 2. Example of a file with spatial location information: [MOB_sample_info.csv](https://github.com/gouxiaojuan/pipeline_spatialDE/blob/main/example/MOB_sample_info.csv)<br>
