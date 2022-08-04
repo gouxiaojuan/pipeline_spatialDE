@@ -48,13 +48,11 @@ def Spatial_norm(filterd_exprs, coordinates):
         dfm = NaiveDE.stabilize(filterd_exprs.T).T
     return dfm
 
-
 counts = pd.read_csv(args.counts_df,index_col = 0)
 sample_info = pd.read_csv(args.location_df,index_col = 0)
 counts = counts.loc[sample_info.index]
 gene = pd.read_csv(args.gene)
 gene1=gene['gene']
-
 
 norm_expr=Spatial_norm(counts,sample_info)
 gene1=gene['gene']
