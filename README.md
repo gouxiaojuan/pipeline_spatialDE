@@ -43,7 +43,8 @@ and a file with spatial location information
 1. Example of a spatial representation matrix: [Rep11_MOB_0.csv](https://github.com/gouxiaojuan/pipeline_spatialDE/blob/main/example/Rep11_MOB_0.csv)<br>
 2. Example of a file with spatial location information: [MOB_sample_info.csv](https://github.com/gouxiaojuan/pipeline_spatialDE/blob/main/example/MOB_sample_info.csv)<br>
 3. Sample files for the SVG you are interested in: [gene.csv](https://github.com/gouxiaojuan/pipeline_spatialDE/blob/main/example/gene.csv)
+
 If you have these two files ready, you can get the SVG using the following command：
 `python spatialDE_plot.py --counts_df=Rep11_MOB_0.csv --location_df=MOB_sample_info.csv --gene=gene.csv`
 
-With this script you can get the expression pattern of your gene of interest:[Kcnh3](https://github.com/gouxiaojuan/pipeline_spatialDE/blob/main/image/scatter0.pdf),[Pcp4](https://github.com/gouxiaojuan/pipeline_spatialDE/blob/main/image/scatter1.pdf),[Igfbp2](https://github.com/gouxiaojuan/pipeline_spatialDE/blob/main/image/scatter2.pdf)
+With this script you can get the expression pattern of your gene of interest, e.g.:[Kcnh3](https://github.com/gouxiaojuan/pipeline_spatialDE/blob/main/image/scatter0.pdf),[Pcp4](https://github.com/gouxiaojuan/pipeline_spatialDE/blob/main/image/scatter1.pdf),[Igfbp2](https://github.com/gouxiaojuan/pipeline_spatialDE/blob/main/image/scatter2.pdf)
