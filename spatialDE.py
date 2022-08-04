@@ -11,7 +11,6 @@ parser.add_argument("-ld","--location_df",required=True)
 args =  parser.parse_args()
 
 
-#定义函数
 def Spatial_DE(filterd_exprs, coordinates):
     if(filterd_exprs.shape[0] != coordinates.shape[0]):
         sys.exit("The number of cells in expression file and location file don't match\n")
@@ -38,7 +37,6 @@ def Spatial_DE(filterd_exprs, coordinates):
         return result_dic
 
 
-#读入文件
 counts = pd.read_csv(args.counts_df,index_col = 0)
 sample_info = pd.read_csv(args.location_df,index_col = 0)
 counts = counts.loc[sample_info.index]
