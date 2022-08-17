@@ -1,4 +1,4 @@
-# Compute SRT spatially variable genes (SVG)
+# Compute SRT Spatially Variable Genes (SVG)
 This is a process of concatenating spatialDE
 ## Work Flow
 This process uses the method of finding SVG in spatialDE. 
